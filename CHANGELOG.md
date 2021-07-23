@@ -4,12 +4,17 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
+## [0.1.0] - 2021-07-23
+
+### Added
+
+- Color Theme: KTC Dark
 
 ## [0.0.1] - 2021-07-17
 
 ### Added
 
-- First release
+- Extension Pack (including 10 VS Code Extensions)
 
-
+[0.1.0]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.0.1...v0.1.0
 [0.0.1]: https://github.com/KTC-GmbH/al-ktc-dev/releases/tag/v0.0.1
