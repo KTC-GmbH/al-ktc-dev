@@ -2,7 +2,7 @@
     "name": "al-ktc-dev",
     "displayName": "AL KTC Dev",
     "description": "Compilation of VS code extensions we use for AL development",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "KTC-GmbH",
     "author": {
         "name": "KTC-Karlsruhe Technology Consulting GmbH",
@@ -10,15 +10,30 @@
         "email": "info@ktc.de"
     },
     "engines": {
-        "vscode": "^1.58.0"
+        "vscode": "^1.55.0"
     },
     "categories": [
-        "Extension Packs"
+        "Extension Packs",
+        "Themes"
+    ],
+    "keywords": [
+        "al",
+        "ktc",
+        "dev"
     ],
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#304761",
         "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "KTC Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ktc-dark.json"
+            }
+        ]
     },
     "homepage": "http://ktc.de",
     "bugs": {
@@ -45,6 +60,6 @@
         "package": "vsce package"
     },
     "dependencies": {
-        "vsce": "^1.95.1"
+        "vsce": "^1.96.1"
     }
 }
