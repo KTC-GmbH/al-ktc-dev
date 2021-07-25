@@ -1,0 +1,32 @@
+{
+    "Snippet: DotNetPackage": {
+        "prefix": "rdotnet",
+        "body": [
+            "dotnet",
+            "{",
+            "\tassembly(${1:AssemblyName})",
+            "\t{",
+            "\t\ttype(${2:TypeName};${0:AliasName}){}",
+            "\t}",
+            "}"
+        ],
+        "description": "Snippet: DotNet Package"
+    },
+    "Snippet: DotNetAssembly": {
+        "prefix": "rdotnetassembly",
+        "body": [
+            "assembly(${1:AssemblyName})",
+            "{",
+            "\ttype(${2:TypeName};${0:AliasName}){}",
+            "}"
+        ],
+        "description": "Snippet: DotNet Assembly"
+    },
+    "Snippet: DotNetType": {
+        "prefix": "rdotnettype",
+        "body": [
+            "type(${1:TypeName};${0:AliasName}){}"
+        ],
+        "description": "Snippet: DotNet Type"
+    }
+}

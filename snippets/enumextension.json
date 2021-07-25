@@ -1,0 +1,12 @@
+{
+    "Snippet: Enum Extension": {
+        "prefix": "renumext",
+        "body": [
+            "enumextension ${1:Id} ${2:MyEnumExtension} extends ${3:MyTargetEnum}",
+            "{",
+            "\tvalue(${4:ValueId}; ${0:MyValue}) { }",
+            "}"
+        ],
+        "description": "Snippet: Enum Extension"
+    }
+}
