@@ -1,0 +1,17 @@
+{
+    "Snippet: Codeunit": {
+        "prefix": "rcodeunit",
+        "body": [
+            "codeunit ${1:Id} ${2:MyCodeunit}",
+            "{",
+            "\tSubtype = Normal;",
+            "\t",
+            "\ttrigger OnRun()",
+            "\tbegin",
+            "\t\t$0",
+            "\tend;",
+            "}"
+        ],
+        "description": "Snippet: Codeunit"
+    }
+}
