@@ -1,8 +1,8 @@
 {
     "name": "al-ktc-dev",
     "displayName": "AL KTC Dev",
-    "description": "Compilation of VS code extensions we use for AL development",
-    "version": "0.1.0",
+    "description": "VS Code extensions we use for AL development.",
+    "version": "0.2.0",
     "publisher": "KTC-GmbH",
     "author": {
         "name": "KTC-Karlsruhe Technology Consulting GmbH",
