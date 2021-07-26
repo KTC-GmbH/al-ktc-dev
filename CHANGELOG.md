@@ -4,12 +4,6 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
-## [0.2.1] - 2021-07-26
-
-### Fixed
-
-- Fixed Snippet as in #5 
-
 ## [0.2.0] - 2021-07-25
 
 ### Added
