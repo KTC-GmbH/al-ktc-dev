@@ -2,7 +2,7 @@
     "Snippet: Trigger": {
         "prefix": "rtrigger",
         "body": [
-            "rrigger ${1:OnWhat}(${2})",
+            "trigger ${1:OnWhat}(${2})",
             "begin",
             "\t$0",
             "end;"
