@@ -1,41 +1,41 @@
 {
-    "name": "al-ktc-dev",
-    "displayName": "AL KTC Dev",
-    "description": "VS Code extensions we use for AL development.",
-    "version": "0.2.2",
-    "publisher": "KTC-GmbH",
-    "author": {
-        "name": "KTC-Karlsruhe Technology Consulting GmbH",
-        "url": "http://www.ktc.de",
-        "email": "info@ktc.de"
-    },
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Extension Packs",
-        "Snippets",
-        "Themes"
-    ],
-    "keywords": [
-        "al",
-        "ktc",
-        "dev"
-    ],
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#304761",
-        "theme": "dark"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "KTC Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/ktc-dark.json"
-            }
-        ],
-        "snippets": [
+	"name": "al-ktc-dev",
+	"displayName": "AL KTC Dev",
+	"description": "VS Code extensions we use for AL development.",
+	"version": "0.2.3",
+	"publisher": "KTC-GmbH",
+	"author": {
+		"name": "KTC-Karlsruhe Technology Consulting GmbH",
+		"url": "http://www.ktc.de",
+		"email": "info@ktc.de"
+	},
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Extension Packs",
+		"Snippets",
+		"Themes"
+	],
+	"keywords": [
+		"al",
+		"ktc",
+		"dev"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#304761",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "KTC Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ktc-dark.json"
+			}
+		],
+		"snippets": [
 			{
 				"language": "al",
 				"path": "./snippets/al.json"
@@ -125,33 +125,33 @@
 				"path": "./snippets/entitlement.json"
 			}
 		]
-    },
-    "homepage": "http://ktc.de",
-    "bugs": {
-        "url": "https://github.com/KTC-GmbH/al-ktc-dev/issues"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/KTC-GmbH/al-ktc-dev"
-    },
-    "extensionPack": [
-        "ms-dynamics-smb.al",
-        "andrzejzwierzchowski.al-code-outline",
-        "waldo.crs-al-language-extension",
-        "rvanbekkum.xliff-sync",
-        "365businessdevelopment.bdev-al-xml-doc",
-        "fluxxusnl.atdd-testscriptor",
-        "jamespearson.al-test-runner",
-        "nwallace.createguid",
-        "philhindle.errorlens",
-        "eamodio.gitlens",
+	},
+	"homepage": "http://ktc.de",
+	"bugs": {
+		"url": "https://github.com/KTC-GmbH/al-ktc-dev/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KTC-GmbH/al-ktc-dev"
+	},
+	"extensionPack": [
+		"ms-dynamics-smb.al",
+		"andrzejzwierzchowski.al-code-outline",
+		"waldo.crs-al-language-extension",
+		"rvanbekkum.xliff-sync",
+		"365businessdevelopment.bdev-al-xml-doc",
+		"fluxxusnl.atdd-testscriptor",
+		"jamespearson.al-test-runner",
+		"nwallace.createguid",
+		"philhindle.errorlens",
+		"eamodio.gitlens",
 		"davidfeldhoff.al-codeactions"
-    ],
-    "scripts": {
-        "package": "vsce package"
-    },
-    "dependencies": {
-        "vsce": "^1.96.1"
-    }
+	],
+	"scripts": {
+		"package": "vsce package"
+	},
+	"dependencies": {
+		"vsce": "^1.96.1"
+	}
 }

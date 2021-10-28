@@ -4,6 +4,12 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
+## [0.2.3] - 2021-10-28
+
+### Added
+
+- AL CodeActions Extension
+
 ## [0.2.2] - 2021-09-05
 
 ### Added
