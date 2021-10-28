@@ -145,7 +145,8 @@
         "jamespearson.al-test-runner",
         "nwallace.createguid",
         "philhindle.errorlens",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+		"davidfeldhoff.al-codeactions"
     ],
     "scripts": {
         "package": "vsce package"
