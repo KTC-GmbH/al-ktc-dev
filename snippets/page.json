@@ -36,6 +36,16 @@
         ],
         "description": "Snippet: Page Field"
     },
+    "Snippet: Page Field (Abbr.)": {
+        "prefix": "rpf",
+        "body": [
+            "field(${1:MyField}; ${2:FieldSource})",
+            "{",
+            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
+            "}"
+        ],
+        "description": "Snippet: Page Field"
+    },
     "Snippet: Action": {
         "prefix": "raction",
         "body": [
