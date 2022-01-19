@@ -3,6 +3,11 @@
 All notable changes to the "al-ktc-dev" extension pack will be documented in this file.
 
 ## [Unreleased]
+## [0.2.4] - 2021-01-19
+
+### Added
+
+- Add BusinessCentral.LinterCop Extension
 
 ## [0.2.3] - 2021-10-28
 
