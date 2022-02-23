@@ -153,6 +153,6 @@
 		"package": "vsce package"
 	},
 	"dependencies": {
-		"vsce": "^1.96.1"
+		"vsce": "^2.6.7"
 	}
 }
