@@ -147,7 +147,8 @@
 		"philhindle.errorlens",
 		"eamodio.gitlens",
 		"davidfeldhoff.al-codeactions",
-		"StefanMaron.businesscentral-lintercop"
+		"StefanMaron.businesscentral-lintercop",
+		"bierner.markdown-mermaid"
 	],
 	"scripts": {
 		"package": "vsce package"
