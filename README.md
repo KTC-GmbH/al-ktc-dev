@@ -1,3 +1,5 @@
+<img src="icon.png" align="right" width="200" height="auto"/>
+
 # KTC VS Code Extension for AL Development
 
 [![version](https://img.shields.io/vscode-marketplace/v/KTC-GmbH.al-ktc-dev.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=KTC-GmbH.al-ktc-dev)
