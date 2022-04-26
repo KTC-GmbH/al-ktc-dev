@@ -1,6 +1,5 @@
 # KTC VS Code Extension for AL Development
 
-
 [![version](https://img.shields.io/vscode-marketplace/v/KTC-GmbH.al-ktc-dev.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=KTC-GmbH.al-ktc-dev)
 [![installs](https://img.shields.io/vscode-marketplace/d/KTC-GmbH.al-ktc-dev.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=KTC-GmbH.al-ktc-dev)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/KTC-GmbH.al-ktc-dev?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=KTC-GmbH.al-ktc-dev&ssr=false#review-details)
@@ -61,6 +60,9 @@ Adds codeactions to the AL language
 
 Provides Linting for the AL Language (Business Central)
 
+### Markdown Preview Mermaid Support
+
+Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview.
 
 ## Contact
 
