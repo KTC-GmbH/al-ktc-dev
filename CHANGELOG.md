@@ -3,6 +3,19 @@
 All notable changes to the "al-ktc-dev" extension pack will be documented in this file.
 
 ## [Unreleased]
+
+## [0.2.6] - 2022-04-02
+
+### Added
+
+- Add mermaid to extensionPack [#18](https://github.com/KTC-GmbH/al-ktc-dev/pull/18)
+
+## [0.2.5] - 2022-03-03
+
+### Fixed
+
+- Security vulnerability markdown-it in vsce [#17](https://github.com/KTC-GmbH/al-ktc-dev/pull/17)
+
 ## [0.2.4] - 2021-01-19
 
 ### Added
@@ -25,7 +38,7 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ### Fixed
 
-- Fixed Snippet as in #5 
+- Fixed Snippet as in #5
 
 ## [0.2.0] - 2021-07-25
 
@@ -45,6 +58,9 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 - Extension Pack (including 10 VS Code Extensions)
 
+[0.2.5]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.5...v0.2.6
+[0.2.5]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.4...v0.2.5
+[0.2.4]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.0...v0.2.1
