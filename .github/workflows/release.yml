@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.14.0
+
+      - name: clean install dependencies
+        run: npm ci
+
+      - name: Install VSCE
+        run: npm install -g vsce
+
+      - name: build vsix
+        run: vsce package
+
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
+
+      - name: create release
+        id: create-release
+        uses: release-drafter/release-drafter@v5.15.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: ${{ steps.package-version.outputs.current-version }}
+          tag: ${{ steps.package-version.outputs.current-version }}
+
+      - name: upload vsix to release asset
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create-release.outputs.upload_url }}
+          asset_path: ${{ github.workspace }}/al-ktc-dev-${{ steps.package-version.outputs.current-version }}.vsix
+          asset_name: al-ktc-dev-${{ steps.package-version.outputs.current-version }}.vsix
+          asset_content_type: application/vsix

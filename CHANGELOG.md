@@ -4,6 +4,12 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
+## [0.2.7] - 2022-04-26
+
+### Fixed
+
+- Security vulnerability in minimist [#19](https://github.com/KTC-GmbH/al-ktc-dev/pull/19)
+
 ## [0.2.6] - 2022-04-02
 
 ### Added
