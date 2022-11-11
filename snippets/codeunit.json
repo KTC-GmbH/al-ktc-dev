@@ -1,6 +1,6 @@
 {
     "Snippet: Codeunit": {
-        "prefix": "rcodeunit",
+        "prefix": "rcodeunit_ktc",
         "body": [
             "codeunit ${1:Id} ${2:MyCodeunit}",
             "{",

@@ -1,6 +1,6 @@
 {
     "Snippet: Page Customization": {
-        "prefix": "rpagecust",
+        "prefix": "rpagecust_ktc",
         "body": [
             "pagecustomization ${1:MyCustomization} customizes ${2:MyTargetPage}",
             "{",

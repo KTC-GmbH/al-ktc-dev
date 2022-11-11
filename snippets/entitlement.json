@@ -1,6 +1,6 @@
 {
     "Snippet: Entitlement": {
-        "prefix": "rentitlement",
+        "prefix": "rentitlement_ktc",
         "body": [
             "entitlement \"${1:MyEntitlement}\"",
             "{",

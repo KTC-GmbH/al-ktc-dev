@@ -1,6 +1,6 @@
 {
-    "Snippet: XmlPort":{
-        "prefix": "txmlport",
+    "Snippet: XmlPort": {
+        "prefix": "txmlport_ktc",
         "body": [
             "xmlport ${1:Id} ${2:MyXmlport}",
             "{",
