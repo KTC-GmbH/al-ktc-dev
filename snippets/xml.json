@@ -1,6 +1,6 @@
 {
     "Snippet: WebService": {
-        "prefix": "twebservice",
+        "prefix": "twebservice_ktc",
         "body": [
             "<TenantWebService>",
             "\t<ObjectType>${1|Page,CodeUnit,Query|}</ObjectType>",
@@ -12,7 +12,7 @@
         "description": "Snippet: Web Service"
     },
     "Snippet: WebServices": {
-        "prefix": "twebservices",
+        "prefix": "twebservices_ktc",
         "body": [
             "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
             "<ExportedData>",
@@ -29,7 +29,7 @@
         "description": "Snippet: Web Services File"
     },
     "Snippet: PermissionSet": {
-        "prefix": "tpermset",
+        "prefix": "tpermset_ktc",
         "body": [
             "<PermissionSet RoleID=\"${1:roleId}\" RoleName=\"${2:roleName}\">",
             "\t<Permission>",
@@ -47,7 +47,7 @@
         "description": "Snippet: Permission Set"
     },
     "Snippet: PermissionSets": {
-        "prefix": "tpermsets",
+        "prefix": "tpermsets_ktc",
         "body": [
             "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>",
             "<PermissionSets>",

@@ -66,6 +66,14 @@ Provides Linting for the AL Language (Business Central)
 
 Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview.
 
+### AL Object ID Ninja
+
+Zero-configuration, dead-simple, no-collision object ID assignment for multi-user repositories.
+
+### Todo Tree
+
+Clicking a TODO within the tree will open the file and put the cursor on the line containing the TODO.
+
 ## Contact
 
 ```

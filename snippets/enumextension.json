@@ -1,10 +1,11 @@
 {
     "Snippet: Enum Extension": {
-        "prefix": "renumext",
+        "prefix": "renumext_ktc",
         "body": [
             "enumextension ${1:Id} ${2:MyEnumExtension} extends ${3:MyTargetEnum}",
             "{",
             "\tvalue(${4:ValueId}; ${0:MyValue}) { }",
+            "\t\t Caption='${0:MyValue}';",
             "}"
         ],
         "description": "Snippet: Enum Extension"

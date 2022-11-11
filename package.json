@@ -2,7 +2,7 @@
 	"name": "al-ktc-dev",
 	"displayName": "AL KTC Dev",
 	"description": "VS Code extensions we use for AL development.",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"publisher": "KTC-GmbH",
 	"author": {
 		"name": "KTC-Karlsruhe Technology Consulting GmbH",
@@ -148,12 +148,14 @@
 		"eamodio.gitlens",
 		"davidfeldhoff.al-codeactions",
 		"StefanMaron.businesscentral-lintercop",
-		"bierner.markdown-mermaid"
+		"bierner.markdown-mermaid",
+		"vjeko.vjeko-al-objid",
+		"Gruntfuggly.todo-tree"
 	],
 	"scripts": {
 		"package": "vsce package"
 	},
 	"dependencies": {
-		"vsce": "^2.6.7"
+		"vsce": "^2.14.0"
 	}
 }

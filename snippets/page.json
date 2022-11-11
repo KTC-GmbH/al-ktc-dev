@@ -1,10 +1,11 @@
 {
     "Page": {
-        "prefix": "rpage",
+        "prefix": "rpage_ktc",
         "body": [
             "page ${1:Id} ${2:MyPage}",
             "{",
             "\tApplicationArea = ${4|All,Basic,Suite,Advanced|};",
+            "\tCaption='${2:MyPage}';",
             "\tPageType = ${3|Card,List,RoleCenter,CardPart,ListPart,Document,Worksheet,ListPlus,ConfirmationDialog,NavigatePage,StandardDialog,API,ReportPreview,ReportProcessingOnly,XmlPort|};",
             "\tSourceTable = ${6:TableName};",
             "\tUsageCategory = ${5|Administration,Documents,History,Lists,None,ReportsAndAnalysis,Tasks|};",
@@ -15,9 +16,11 @@
             "\t\t{",
             "\t\t\tgroup(${7:GroupName})",
             "\t\t\t{",
-            "\t\t\t\tfield(${9:Name}; ${8:NameSource})",
+            "\t\t\t\tCaption='${7:GroupName}';",
+            "\t\t\t\tfield(${9:Name}; Rec.${8:NameSource})",
             "\t\t\t\t{",
             "\t\t\t\t\tApplicationArea = ${4};",
+            "\t\t\t\t\tTooltip='Specifies the value of the ${8:NameSource} field.';",
             "\t\t\t\t}",
             "\t\t\t}",
             "\t\t}",
@@ -27,31 +30,33 @@
         "description": "Snippet: Page"
     },
     "Snippet: Page Field": {
-        "prefix": "rpagefield",
+        "prefix": "rpagefield_ktc",
         "body": [
-            "field(${1:MyField}; ${2:FieldSource})",
+            "field(${1:MyField}; Rec.${2:FieldSource})",
             "{",
             "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
+            "\tTooltip='Specifies the value of the ${2:FieldSource} field.';",
             "}"
         ],
         "description": "Snippet: Page Field"
     },
     "Snippet: Page Field (Abbr.)": {
-        "prefix": "rpf",
+        "prefix": "rpf_ktc",
         "body": [
-            "field(${1:MyField}; ${2:FieldSource})",
+            "field(${1:MyField}; Rec.${2:FieldSource})",
             "{",
             "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
+            "\tTooltip='Specifies the value of the ${2:FieldSource} field.';",
             "}"
         ],
         "description": "Snippet: Page Field"
     },
     "Snippet: Action": {
-        "prefix": "raction",
+        "prefix": "raction_ktc",
         "body": [
             "action(${1:ActionName})",
             "{",
-            "\tApplicationArea = ${2|All,Basic,Suite,Advanced|};",
+            "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\t",
             "\ttrigger OnAction()",
             "\tbegin",
@@ -62,7 +67,7 @@
         "description": "Snippet: Page Action"
     },
     "Snippet: User Control": {
-        "prefix": "rusercontrol",
+        "prefix": "rusercontrol_ktc",
         "body": [
             "usercontrol(${1:ControlName}; ${2:AddInName})",
             "{",
@@ -77,7 +82,7 @@
         "description": "Snippet: Page User Control"
     },
     "Snippet: View Shared Layout": {
-        "prefix": "rview",
+        "prefix": "rview_ktc",
         "body": [
             "view(${1:ViewName})",
             "{",
@@ -88,7 +93,7 @@
         "description": "Snippet: Page View without layout changes"
     },
     "Snippet: View Detached Layout": {
-        "prefix": "rview",
+        "prefix": "rview_ktc",
         "body": [
             "view(${1:ViewName})",
             "{",
@@ -105,7 +110,7 @@
         "description": "Snippet: Page View with layout changes"
     },
     "Snippet: Part": {
-        "prefix": "rpart",
+        "prefix": "rpart_ktc",
         "body": [
             "part(${1:PartName}; ${2:PartSource})",
             "{",
@@ -115,10 +120,11 @@
         "description": "Snippet: Page Part"
     },
     "Page of type List": {
-        "prefix": "rpagelist",
+        "prefix": "rpagelist_ktc",
         "body": [
             "page ${1:Id} ${2:PageName}",
             "{",
+            "\tCaption='${2:PageName}';",
             "\tPageType = List;",
             "\tApplicationArea = ${3|All,Basic,Suite,Advanced|};",
             "\tUsageCategory = Lists;",
@@ -130,9 +136,10 @@
             "\t\t{",
             "\t\t\trepeater(${5:GroupName})",
             "\t\t\t{",
-            "\t\t\t\tfield(${7:Name}; ${6:NameSource})",
+            "\t\t\t\tfield(${7:Name}; Rec.${6:NameSource})",
             "\t\t\t\t{",
             "\t\t\t\t\tApplicationArea = ${3};",
+            "\t\t\t\t\tTooltip='Specifies the value of the ${6:NameSource} field.';",
             "\t\t\t\t\t${8}",
             "\t\t\t\t}",
             "\t\t\t}",
@@ -143,7 +150,7 @@
         "description": "Snippet: Page of type list"
     },
     "Page of type API": {
-        "prefix": "rpageapi",
+        "prefix": "rpageapi_ktc",
         "body": [
             "page ${1:Id} ${2:ApiPageName}",
             "{",
@@ -176,7 +183,7 @@
         "description": "Snippet: Page of type API"
     },
     "Page of type Role Center": {
-        "prefix": "rpage",
+        "prefix": "rpage_ktc",
         "body": [
             "page ${1:Id} ${2:RoleCenterName}",
             "{",

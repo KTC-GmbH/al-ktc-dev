@@ -1,6 +1,6 @@
 {
     "Snippet: Report Extension": {
-        "prefix": "rreportext",
+        "prefix": "rreportext_ktc",
         "body": [
             "reportextension ${1:Id} ${2:MyExtension} extends ${3:MyTargetReport}",
             "{",

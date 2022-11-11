@@ -1,6 +1,6 @@
 {
     "Snippet: PermissionSet": {
-        "prefix": "rpermissionset",
+        "prefix": "rpermissionset_ktc",
         "body": [
             "permissionset ${1:Id} ${2:MyPermissionSet}",
             "{",

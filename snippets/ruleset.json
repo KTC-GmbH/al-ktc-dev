@@ -1,6 +1,6 @@
 {
     "Snippet: RuleSet": {
-        "prefix": "rruleset",
+        "prefix": "rruleset_ktc",
         "body": [
             "{",
             "\t\"name\": \"${1:Name}\",",
@@ -17,7 +17,7 @@
         "description": "Snippet: RuleSet"
     },
     "Snippet: Rule": {
-        "prefix": "rrule",
+        "prefix": "rrule_ktc",
         "body": [
             "{",
             "\t\"id\": \"${1:DiagnosticId}\",",

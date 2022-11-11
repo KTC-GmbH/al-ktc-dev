@@ -1,6 +1,6 @@
 {
     "Snippet: PermissionSetExtension": {
-        "prefix": "rpermissionsetextension",
+        "prefix": "rpermissionsetextension_ktc",
         "body": [
             "permissionsetextension ${1:Id} ${2:MyPermissionSetExt} extends ${3:MyTargetPermissionSet}",
             "{",

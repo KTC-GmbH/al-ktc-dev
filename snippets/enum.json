@@ -1,6 +1,6 @@
 {
     "Snippet: Enum": {
-        "prefix": "renum",
+        "prefix": "renum_ktc",
         "body": [
             "enum ${1:id} ${2:MyEnum}",
             "{",
@@ -8,16 +8,18 @@
             "\t",
             "\tvalue(0; ${0:MyValue})",
             "\t{",
+            "\t\t Caption='${0:MyValue}';",
             "\t}",
             "}"
         ],
         "description": "Snippet: Enum"
     },
     "Snippet: Enum Value": {
-        "prefix": "renumvalue",
+        "prefix": "renumvalue_ktc",
         "body": [
             "value(${1:ValueId}; ${0:MyValue})",
             "{",
+            "\t\t Caption='${0:MyValue}';",
             "}"
         ],
         "description": "Snippet: Enum Value"

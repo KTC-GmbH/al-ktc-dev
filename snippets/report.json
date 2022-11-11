@@ -1,6 +1,6 @@
 {
     "Snippet: Report": {
-        "prefix": "rreport",
+        "prefix": "rreport_ktc",
         "body": [
             "report ${1:Id} ${2:MyReport}",
             "{",
@@ -52,7 +52,7 @@
         "description": "Snippet: Report"
     },
     "Snippet: Data Item": {
-        "prefix": "rdataitem",
+        "prefix": "rdataitem_ktc",
         "body": [
             "dataitem(${1:DataItemName}; ${2:SourceTableName})",
             "{",
@@ -65,7 +65,7 @@
         "description": "Snippet: Report Data Item"
     },
     "Snippet: Column": {
-        "prefix": "rcolumn",
+        "prefix": "rcolumn_ktc",
         "body": [
             "column(${1:ColumnName}; ${2:SourceFieldName})",
             "{",
