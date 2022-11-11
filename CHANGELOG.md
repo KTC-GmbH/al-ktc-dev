@@ -4,6 +4,12 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
+## [0.2.8] - 2022-11-11
+
+- Add AL Object ID Ninja Extension
+- Add Todo Tree Extension
+- Update AL Snippet
+
 ## [0.2.7] - 2022-04-26
 
 ### Fixed
@@ -62,8 +68,9 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ### Added
 
-- Extension Pack (including 10 VS Code Extensions)
+- Extension Pack (including 14 VS Code Extensions)
 
+[0.2.8]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.6...v0.2.8
 [0.2.5]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/KTC-GmbH/al-ktc-dev/compare/v0.2.3...v0.2.4
