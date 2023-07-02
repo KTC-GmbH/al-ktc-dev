@@ -156,8 +156,8 @@
   "scripts": {
     "package": "vsce package"
   },
-  "dependencies": {
-    "vsce": "^2.14.0"
-  },
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
 }
