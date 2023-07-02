@@ -50,7 +50,7 @@ Generate XML documentation comments for AL source code and create markdown docum
 
 ## **ATDD.TestScriptor**
 [![vs marketplace](https://img.shields.io/visual-studio-marketplace/v/fluxxusnl.atdd-testscriptor?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor)
-[![downloads](https://img.shields.io/visual-studio-marketplace/d/fluxxusnl.atdd-testscriptor)]https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor
+[![downloads](https://img.shields.io/visual-studio-marketplace/d/fluxxusnl.atdd-testscriptor)](https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor)
 [![rating](https://img.shields.io/visual-studio-marketplace/r/fluxxusnl.atdd-testscriptor)](https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor)
 
 The Acceptance Test-Driven Development test scriptor allows the user to define in a managed matter ATDD test scenarios and convert them into an AL code structure to facilate fast test code development.
