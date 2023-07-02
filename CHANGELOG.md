@@ -4,6 +4,16 @@ All notable changes to the "al-ktc-dev" extension pack will be documented in thi
 
 ## [Unreleased]
 
+## [0.2.9] - 2023-03-07
+
+- Add AL Navigator
+- Add AL Object Designer
+- Add AL Toolbox
+- Add Code Spell Checker
+- Add vscode-icons
+- Change Item Error Lens
+- Update AL Snippet
+
 ## [0.2.8] - 2022-11-11
 
 - Add AL Object ID Ninja Extension
