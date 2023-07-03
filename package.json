@@ -1,161 +1,166 @@
 {
-	"name": "al-ktc-dev",
-	"displayName": "AL KTC Dev",
-	"description": "VS Code extensions we use for AL development.",
-	"version": "0.2.8",
-	"publisher": "KTC-GmbH",
-	"author": {
-		"name": "KTC-Karlsruhe Technology Consulting GmbH",
-		"url": "http://www.ktc.de",
-		"email": "info@ktc.de"
-	},
-	"engines": {
-		"vscode": "^1.55.0"
-	},
-	"categories": [
-		"Extension Packs",
-		"Snippets",
-		"Themes"
-	],
-	"keywords": [
-		"al",
-		"ktc",
-		"dev"
-	],
-	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#304761",
-		"theme": "dark"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "KTC Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/ktc-dark.json"
-			}
-		],
-		"snippets": [
-			{
-				"language": "al",
-				"path": "./snippets/al.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/codeunit.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/interface.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/controladdin.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/dotnet.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/enum.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/enumextension.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/page.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/pageextension.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/query.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/report.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/reportextension.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/table.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/tableextension.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/xmlport.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/pagecustomization.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/permissionset.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/permissionsetextension.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/profile.json"
-			},
-			{
-				"language": "json",
-				"path": "./snippets/ruleset.json"
-			},
-			{
-				"language": "xml",
-				"path": "./snippets/xml.json"
-			},
-			{
-				"language": "al",
-				"path": "./snippets/entitlement.json"
-			}
-		]
-	},
-	"homepage": "http://ktc.de",
-	"bugs": {
-		"url": "https://github.com/KTC-GmbH/al-ktc-dev/issues"
-	},
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/KTC-GmbH/al-ktc-dev"
-	},
-	"extensionPack": [
-		"ms-dynamics-smb.al",
-		"andrzejzwierzchowski.al-code-outline",
-		"waldo.crs-al-language-extension",
-		"rvanbekkum.xliff-sync",
-		"365businessdevelopment.bdev-al-xml-doc",
-		"fluxxusnl.atdd-testscriptor",
-		"jamespearson.al-test-runner",
-		"nwallace.createguid",
-		"philhindle.errorlens",
-		"eamodio.gitlens",
-		"davidfeldhoff.al-codeactions",
-		"StefanMaron.businesscentral-lintercop",
-		"bierner.markdown-mermaid",
-		"vjeko.vjeko-al-objid",
-		"Gruntfuggly.todo-tree"
-	],
-	"scripts": {
-		"package": "vsce package"
-	},
-	"dependencies": {
-		"vsce": "^2.14.0"
-	}
+  "name": "al-ktc-dev",
+  "displayName": "AL KTC Dev",
+  "description": "VS Code extensions we use for AL development.",
+  "version": "0.2.9",
+  "publisher": "KTC-GmbH",
+  "author": "KTC-Karlsruhe Technology Consulting GmbH <info@ktc.de> (http://www.ktc.de)",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Extension Packs",
+    "Snippets",
+    "Themes"
+  ],
+  "keywords": [
+    "al",
+    "ktc",
+    "dev"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#304761",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "KTC Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ktc-dark.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "al",
+        "path": "./snippets/al.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/codeunit.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/interface.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/controladdin.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/dotnet.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/enum.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/enumextension.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/page.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/pageextension.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/query.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/report.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/reportextension.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/table.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/tableextension.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/xmlport.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/pagecustomization.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/permissionset.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/permissionsetextension.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/profile.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/ruleset.json"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/xml.json"
+      },
+      {
+        "language": "al",
+        "path": "./snippets/entitlement.json"
+      }
+    ]
+  },
+  "homepage": "http://ktc.de",
+  "bugs": {
+    "url": "https://github.com/KTC-GmbH/al-ktc-dev/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTC-GmbH/al-ktc-dev.git"
+  },
+  "extensionPack": [
+    "ms-dynamics-smb.al",
+    "andrzejzwierzchowski.al-code-outline",
+    "waldo.crs-al-language-extension",
+    "rvanbekkum.xliff-sync",
+    "365businessdevelopment.bdev-al-xml-doc",
+    "fluxxusnl.atdd-testscriptor",
+    "jamespearson.al-test-runner",
+    "nwallace.createguid",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "davidfeldhoff.al-codeactions",
+    "StefanMaron.businesscentral-lintercop",
+    "bierner.markdown-mermaid",
+    "vjeko.vjeko-al-objid",
+    "Gruntfuggly.todo-tree",
+    "wbrakowski.al-navigator",
+    "martonsagi.al-object-designer",
+    "vscode-icons-team.vscode-icons",
+    "BartPermentier.al-toolbox",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "main": "extension/index.js",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.activate"
+  ]
 }

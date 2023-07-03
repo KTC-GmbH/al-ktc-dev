@@ -12,7 +12,7 @@
             "\t\tfield(1;${4:MyField}; ${5:Integer})",
             "\t\t{",
             "\t\t\tDataClassification='${3}';",
-            "\t\t\ttCaption='${4:MyField}';",
+            "\t\t\tCaption='${4:MyField}';",
             "\t\t\t$7",
             "\t\t}",
             "\t}",
@@ -31,7 +31,7 @@
     "Snippet: Table Field": {
         "prefix": "rfield_ktc",
         "body": [
-            "field(${1:id}; ${2:MyField}; ${3|Blob,BigInteger,Boolean,Code[50],Date,DateFormula,Decimal,Duration,Integer,Guid,Media,MediaSet,Option,RecordID,TableFilter,Text[50],Time|})",
+            "field(${1:id}; \"${2:MyField}\"; ${3|Blob,BigInteger,Boolean,Code[50],Date,DateFormula,Decimal,Duration,Integer,Guid,Media,MediaSet,Option,RecordID,TableFilter,Text[50],Time|})",
             "{",
             "\tCaption='${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
@@ -42,9 +42,9 @@
     "Snippet: Table Field Option": {
         "prefix": "rfieldoption_ktc",
         "body": [
-            "field(${1:id}; ${2:MyField}; Option)",
+            "field(${1:id}; \"${2:MyField}\"; Option)",
             "{",
-            "Caption='${2:MyField}';",
+            "Caption='\"${2:MyField}\"';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
             "\tOptionMembers = ${0:Default};",
             "}"
@@ -54,7 +54,7 @@
     "Snippet: Table Field Code": {
         "prefix": "tfieldcode_ktc",
         "body": [
-            "field(${1:id}; ${2:MyField}; Code[${3:Length}])",
+            "field(${1:id}; \"${2:MyField}\"; Code[${3:Length}])",
             "{",
             "\tCaption='${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
@@ -66,7 +66,7 @@
     "Snippet: Table Field Text": {
         "prefix": "rfieldtext_ktc",
         "body": [
-            "field(${1:id}; ${2:MyField}; Text[${3:Length}])",
+            "field(${1:id}; \"${2:MyField}\"; Text[${3:Length}])",
             "{",
             "\tCaption='${2:MyField}';",
             "\tDataClassification = ${4|ToBeClassified,CustomerContent,EndUserIdentifiableInformation,AccountData,EndUserPseudonymousIdentifiers,OrganizationIdentifiableInformation,SystemMetadata|};",
@@ -78,7 +78,7 @@
     "Snippet: Table Key": {
         "prefix": "rkey_ktc",
         "body": [
-            "key(${1:MyKey}; ${2:MyField})",
+            "key(${1:MyKey}; \"${2:MyField}\")",
             "{",
             "\t$0",
             "}"
