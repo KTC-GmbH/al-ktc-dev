@@ -156,9 +156,11 @@
   "scripts": {
     "package": "vsce package"
   },
-  "main": "index.js",
+  "main": "extension/index.js",
   "devDependencies": {
     "vsce": "^2.15.0"
   },
-  "activationEvents": []
+  "activationEvents": [
+    "onCommand:extension.activate"
+  ]
 }
