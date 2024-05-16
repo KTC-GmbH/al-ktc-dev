@@ -41,13 +41,6 @@ A bunch of useful commands, settings and snippets to improve your life as an al 
 
 A VSCode extension to keep XLIFF translation files in sync with a specified, automatically generated base-XLIFF file.
 
-## **AL XML Documentation**
-[![vs marketplace](https://img.shields.io/vscode-marketplace/v/365businessdevelopment.bdev-al-xml-doc?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=365businessdevelopment.bdev-al-xml-doc)
-[![downloads](https://img.shields.io/vscode-marketplace/d/365businessdevelopment.bdev-al-xml-doc)](https://marketplace.visualstudio.com/items?itemName=365businessdevelopment.bdev-al-xml-doc)
-[![rating](https://img.shields.io/vscode-marketplace/r/365businessdevelopment.bdev-al-xml-doc)](https://marketplace.visualstudio.com/items?itemName=365businessdevelopment.bdev-al-xml-doc)
-
-Generate XML documentation comments for AL source code and create markdown documentation from it.
-
 ## **ATDD.TestScriptor**
 [![vs marketplace](https://img.shields.io/visual-studio-marketplace/v/fluxxusnl.atdd-testscriptor?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor)
 [![downloads](https://img.shields.io/visual-studio-marketplace/d/fluxxusnl.atdd-testscriptor)](https://marketplace.visualstudio.com/items?itemName=fluxxusnl.atdd-testscriptor)
