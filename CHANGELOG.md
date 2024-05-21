@@ -3,6 +3,8 @@
 All notable changes to the "al-ktc-dev" extension pack will be documented in this file.
 
 ## [Unreleased]
+## [0.2.10] - 2024-05-21
+- Remove AL XML Documentation extension
 
 ## [0.2.9] - 2023-03-07
 
